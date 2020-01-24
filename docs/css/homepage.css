@@ -1,0 +1,397 @@
+html
+{
+	background-image: url("../Images/homepage.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+  max-width: 1920px;
+}
+
+main{
+  font-family: 'Roboto', sans-serif;
+}
+
+.top {
+  display: flex;
+
+  max-width: 100%;
+  flex-wrap: nowrap;
+  flex-basis: auto;
+  height: 350px;
+}
+
+.spotlight {
+  display: flex;
+
+  /* background-color: red; */
+  background-image: url('../Images/profilpage2.jpg');
+  background-size: cover;
+  width: 850px;
+  height: 610px;
+  flex-basis: auto;
+  position: relative;
+  left: 209px;
+  bottom: 279px;
+  flex-basis: auto;
+}
+
+
+
+.goto {
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column-reverse;
+  position: relative;
+  right: px;
+  top: 06px;
+}
+
+.goto p
+{
+	color: white;
+  font-size: 58px;
+
+	position: relative;
+  right: 170px;
+  bottom: 150px;
+}
+
+.goto #gototxt
+{
+	color: black;
+}
+
+.goto #gototxt2
+{
+  color: white;
+}
+
+.goto img {
+  width: 87px;
+  height: 83px;
+}
+
+.socials {
+	/* background-color: green; */
+  display: flex;
+  flex-direction: column;
+  width: 20px;
+  flex-basis: auto;
+  margin-top: -310px;
+
+}
+
+.socials img {
+  width: 20px;
+  height: 20px;
+  margin-top: 40px;
+}
+
+.socials hr {
+  display: inline-block;
+  width: 60px;
+  position: relative;
+  top: 35px;
+  right: 20px;
+  transform: rotate(90deg);
+  margin-top: 56px;
+}
+
+.socials p {
+  margin-top: 80px;
+  transform: rotate(-90deg);
+}
+
+.number {
+	/* background-color: yellow; */
+  display: flex;
+  flex-direction: row;
+  flex-basis: auto;
+  width: 300px;
+  height: 250px;
+  align-items: flex-end;
+  justify-content: flex-end;
+	margin-top: 65px;
+}
+
+.number ol {
+  counter-reset: item;
+  list-style-type: none;
+}
+
+.number li {
+  display: block;
+  margin-top: 10px;
+}
+
+.number li:before {
+  content: counter(item, decimal-leading-zero) " ";
+  counter-increment: item;
+}
+
+
+.numberhr {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 200px;
+  justify-content: space-evenly;
+
+}
+
+.numberhr hr {
+  display: flex;
+  position: relative;
+  top: 155px;
+  left: 10px;
+  width: 100px;
+  height: 2px;
+  padding: 0;
+  margin: 8px;
+  margin-left: 35px;
+  background-color: black;
+  border: none;
+  justify-content: center;
+  align-content: center;
+}
+
+/* categories_photo_bouton_soustitre */
+.middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: auto;
+  height: 1050px;
+}
+
+.cat {
+  display: flex;
+  align-items: center;
+  flex-basis: auto;
+  width: 400px;
+  height: 80px;
+  align-content: center;
+  justify-content: space-evenly;
+  margin-bottom: -80px;
+}
+
+.cat #musician
+{
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+
+.cat_pic {
+
+  display: flex;
+  flex-flow: row wrap;
+  flex-basis: auto;
+  width: 1260px;
+  margin-left: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 160px;
+
+}
+
+.cat_pic #img3:hover
+{
+	filter: brightness(25%);
+}
+
+
+
+
+
+.cat_pic img {
+  width: 315px;
+  height: 360px;
+
+  /* overflow: visible; */
+}
+
+.explore button {
+  display: flex;
+  margin-top: 60px;
+  background: #6fa8dc;
+  background: linear-gradient(#6fa8dc, #3d85c6);
+  border-radius: 1000px;
+  padding: 16px 45px;
+  color: #ffffff;
+  display: inline-block;
+  font: italic bold 24px/1 "Roboto", sans-serif;
+  text-align: center;
+  text-shadow: 1px 1px #000000;
+  white-space: nowrap;
+}
+
+.story p {
+  display: flex;
+
+  font-size: 54px;
+  margin-top: 80px;
+
+
+}
+
+.story::after{
+content: ""; /* This is necessary for the pseudo element to work. */
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 50%; /* Change this to whatever width you want. */
+    margin-top: -30px; /* This creates some space between the element and the border. */
+    border-bottom: 1px solid black;
+}
+.bot {
+  display: flex;
+
+  max-width: 100%;
+  flex-wrap: wrap;
+  flex-basis: auto;
+  height: 800px;
+}
+
+
+.videos {
+  display: flex;
+
+  flex-flow: row wrap;
+  flex-basis: auto;
+  width: 100%;
+  height: 120px;
+  justify-content: space-between;
+  margin-top: 150px
+
+}
+a.vid1 {
+  width: 175px;
+  height: 125px;
+  background-image: url("../Images/woman1.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+
+a.vid1:hover
+{
+  width: 175px;
+  height: 125px;
+  background-image: url("../Images/play.png");
+  background-size: contain;
+
+}
+
+.text1
+{
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+}
+
+a.vid2 {
+
+  width: 175px;
+  height: 125px;
+  background-image: url("../Images/woman2.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+a.vid2:hover
+{
+  width: 175px;
+  height: 125px;
+  background-image: url("../Images/play.png");
+  background-size: contain;
+
+}
+
+.text2
+{
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+}
+
+a.vid3 {
+
+  width: 175px;
+  height: 125px;
+  background-image: url("../Images/balle.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+a.vid3:hover
+{
+  width: 175px;
+  height: 125px;
+  background-image: url("../Images/play.png");
+  background-size: contain;
+
+}
+
+.text3
+{
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+}
+
+.itemstop
+{
+  display: flex;
+  flex-basis: auto;
+  flex-wrap: wrap;
+
+
+}
+
+.i1 img
+{
+  width: 775px;
+  height: 365px;
+
+}
+
+
+.i1
+{
+
+  display: flex;
+  margin-bottom: px;
+  flex-basis: auto;
+  width: 500px;
+  margin-left: 75px;
+  margin-right: 314px;
+}
+
+.i2 img
+{
+  width: 370px;
+  height: 600px
+}
+
+.i2
+{
+
+  display: flex;
+
+}
+
+.itemsbot{
+  display: flex;
+  margin-top: -230px;
+}
+
+
+.i3 img
+{
+  display: flex;
+  max-width: 300px;
+  margin-left: 74px
+}
+
+.i4 img
+{
+  max-width: 400px;
+  margin-left: 56px;
+}

@@ -1,0 +1,306 @@
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4em;
+}
+
+h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  align-items: baseline;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+.menu a:link {
+  color: #A3A2A8;
+  text-decoration: none;
+}
+
+.menu a:visited {
+  color: #A3A2A8;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+/* Main 1*/
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* Main 1 -Partie de gauche */
+.main-left {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 750px;
+  background-image: url("../Images/about1.jpg");
+  background-size: 40%;
+  background-repeat: no-repeat;
+}
+
+.list-icone {
+  margin-top: 16em;
+  margin-left: 1.5em;
+}
+
+.container-contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 18em;
+  ;
+}
+
+#contactus {
+  background-image: linear-gradient(to right, #D3E3E3, #B5D3D3);
+  width: 10%;
+  color: white;
+  font-size: 10px;
+  padding-left: 70px;
+  padding-right: 30px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#contact-icone {
+  background-color: white;
+  width: 0.9em;
+  /* margin-top: 18em; */
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+  padding-bottom: 24px;
+}
+
+/* Main 1 - Partie du centre */
+.main-center {
+  display: block;
+  width: 45%;
+  padding-right: 50px;
+  padding-left: 25em;
+  margin-right: 10px;
+  margin-left: 175px;
+}
+
+/* Main 1 - centre haut */
+.main-center-top {
+  font-size: 20px;
+  margin-left: 80px;
+  margin-right: 2em;
+  padding-top: 7em;
+  padding-right: 90px;
+}
+
+/* Main 1 - center milieu */
+.main-center-center {
+  margin-left: 80px;
+  margin-right: 3em;
+  font-size: 12px;
+  color: #A3A2A8;
+  padding-right: 30px;
+  line-height: 2.2em;
+  text-align: justify;
+}
+
+/* Main 1 -  center bas */
+.main-center-bot {
+  background-image: url("../Images/industrial.jpg");
+  margin-top: 5.5em;
+  margin-left: 5em;
+  margin-right: 4em;
+  padding-top: 50px;
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-bottom: 44px;
+}
+
+#quote {
+  font-family: 'Volkhov', serif;
+  font-size: 20px;
+  color: #FFFFFF;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+/* Main 1 - Partie de droite */
+.gradient {
+  background-image: linear-gradient(60deg, #D3E3E3, #B5D3D3);
+  margin-top: ;
+  padding-top: 40px;
+  padding-bottom: 20em;
+  padding-right: 11em;
+}
+
+/* Menu */
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #A3A2A8;
+  font-size: 0.8em;
+  padding-top: 5em;
+  padding-left: 10em;
+  padding-right: 10em;
+}
+
+/* Slide */
+.caroussel {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 4em;
+}
+
+.backgroundslide {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.superposition {
+  background-image: url(../Images/profilp13.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: 250px;
+  height: 200em;
+}
+
+.superposition2 {
+  background-image: url(../Images/profilp3.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: 250px;
+  height: 200em;
+}
+
+.superposition3 {
+  background-image: url(../Images/profilp11.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: 250px;
+  height: 200em;
+}
+
+.superposition4 {
+  background-image: url(../Images/profilp9.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: 250px;
+  height: 200em;
+}
+
+/* .superposition2 :hover {
+  background: url(fondnoirprofil.jpg);
+  background-repeat: no-repeat;
+  background-size: 15em;
+  height: 40em;
+  opacity: 20%;
+} */
+.name {
+  padding-top: 15em;
+  padding-left: 5em;
+}
+
+/* Superposition1 */
+.superposition :link {
+  color: white;
+  text-decoration: none;
+}
+
+.superposition a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.superposition a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+/* Superposition2 */
+.superposition2 :link {
+  color: white;
+  text-decoration: none;
+}
+
+.superposition2 a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.superposition2 a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+/* Superposition3 */
+.superposition3 :link {
+  color: white;
+  text-decoration: none;
+}
+
+.superposition3 a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.superposition3 a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+/* Superposition4 */
+.superposition4 :link {
+  color: white;
+  text-decoration: none;
+}
+
+.superposition4 a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.superposition4 a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+#model {
+  font-size: 0.6em;
+  margin-left: 2.5em;
+  margin-top: -1em;
+}
+
+.icone {
+  padding-top: 0.3em;
+  padding-left: 6em;
+}
+
+#fleche-gauche {
+  padding-top: 11em;
+  padding-right: 2em;
+}
+
+#fleche-droite {
+  padding-top: 11em;
+  padding-left: 2em;
+}
