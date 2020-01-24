@@ -173,6 +173,7 @@ li {
 .backgroundslide {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .superposition {
@@ -296,8 +297,10 @@ li {
 
 #fleche-gauche {
   padding-top: 11em;
+  padding-right: 2em;
 }
 
 #fleche-droite {
   padding-top: 11em;
+  padding-left: 2em;
 }
